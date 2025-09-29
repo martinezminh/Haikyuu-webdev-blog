@@ -4,130 +4,210 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haikyu!!</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              garamond: ['"EB Garamond"', 'serif'],
+              yusei: ['"Yusei Magic"', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
   </head>
 
-  <body>
-<header class="bg-orange-400 py-4">
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/4/43/Haikyuu%21%21_Logo.png"
-    alt="pic"
-    class="mx-auto"
-  />
-</header>
+  <body class="bg-white text-gray-900">
+    <header class="bg-orange-400 py-4">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Haikyuu%21%21_Logo.png"
+        alt="Haikyuu Logo"
+        class="mx-auto"
+      />
+    </header>
 
-    
-    <div class="flex items-center m-4">
-  <img 
-  src="https://tse4.mm.bing.net/th/id/OIP.-psGGwCT3K7spTmcbed1pQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" 
-  alt="haikyu!!" 
-  class="w-100 h-auto mr-4 ml-20 rounded"
-/>
-  <p class="mr-20" style="text-align: justify">
-    Haikyu!! follows Shōyō Hinata, a high school student who dreams of
-    becoming a great volleyball player despite his short stature. Inspired by
-    a legendary player known as "The Little Giant," he joins Karasuno High
-    School’s volleyball team and develops a fierce rivalry and eventual
-    partnership with talented setter Tobio Kageyama.
-</p>
-</div>
+    <div class="max-w-4xl mx-auto my-10 px-4">
+      <!-- Intro Paragraphs -->
+      <div class="block w-full">
+        <img
+          src="https://pbs.twimg.com/media/FC4mTlaVQAgo-8X.jpg:large"
+          alt="Haikyuu!! Team"
+          class="float-left w-[21rem] mr-8 mb-4"
+        />
 
-    <br />
+        <p class="font-garamond text-base md:text-xl text-gray-800 leading-relaxed text-justify mb-6">
+          Haikyuu!! follows Shōyō Hinata, a high school student who dreams of
+          becoming a great volleyball player despite his short stature. Inspired by a legendary
+          player known as "The Little Giant," he joins Karasuno High School’s volleyball team and
+          develops a fierce rivalry and eventual partnership with talented setter Tobio Kageyama.
+          Together, they push each other to grow, transforming Karasuno from an underdog team into a formidable force on the court.
+        </p>
 
-    <br />
-    <div class="mx-auto max-w-4xl px-4">
-  <div class="flex justify-between">
-    <div>
-      <h1 class="font-bold text-2xl">Manga</h1>
-      <ul>
-        <li>Title: Haikyu!!</li>
-        <li>Serialization Start Date: February 20, 2012</li>
-        <li>Serialization End Date: July 20, 2020</li>
-        <li>Serialized In: Weekly Shōnen Jump (published by Shueisha)</li>
-        <li>Total Volumes: 45</li>
-      </ul>
+        <p class="font-garamond text-base md:text-xl text-gray-800 leading-relaxed text-justify mb-6">
+          The series explores the intense world of competitive high school volleyball, where every match is a test of strategy,
+          endurance, and teamwork. As Hinata and Kageyama evolve as players, so does the entire Karasuno squad. Each teammate
+          brings a unique personality and skillset, contributing to the team's growth both on and off the court. Haikyuu!! 
+          introduces a wide range of rival schools such as Aoba Johsai, Nekoma, Shiratorizawa, and Inarizaki, each with their
+          own philosophies and playstyles that challenge Karasuno in different ways. Through rigorous training, emotional
+          setbacks, and unforgettable tournaments, the story highlights the value of perseverance, friendship, and the pursuit
+          of excellence. Whether you're drawn to the fast-paced action, the heartfelt character development, or the inspiring
+          message of rising above limitations, Haikyuu!! delivers a powerful and uplifting experience that resonates far beyond the volleyball court.
+        </p>
+
+        <div class="clear-both"></div>
+      </div>
+
+      <br>
+      <div class="flex flex-col md:flex-row items-start gap-8">
+        <div class="w-[260px] shrink-0">
+          <img
+            src="https://hapimanga.com/cdn/shop/products/9781974722839_b5b73_800x.jpg?v=1622433543"
+            alt="Manga Cover"
+            class="w-full h-auto rounded shadow-md"
+          />
+        </div>
+
+        <div class="flex-1">
+          <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Manga</h2>
+          <ul class="list-disc pl-5 text-gray-800 font-garamond text-base leading-relaxed space-y-1 mb-6">
+            <li><strong>Title:</strong> Haikyu!!</li>
+            <li><strong>First Published:</strong> February 20, 2012</li>
+            <li><strong>Published In:</strong> Weekly Shōnen Jump (published by Shueisha)</li>
+            <li><strong>Written By:</strong> Haruichi Furudate</li>
+          </ul>
+
+          <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to read manga online?</h2>
+          <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2 mb-6">
+            <li><span class="font-bold">Manga Plus</span> – Free access to selected chapters from Shueisha.</li>
+            <li><span class="font-bold">Viz</span> – Offers digital volumes and chapter previews.</li>
+          </ul>
+
+          <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to buy physical copies?</h2>
+          <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2">
+            <li><span class="font-bold">Kinokuniya</span> – International bookstore with manga sections (available via Manila branches or online).</li>
+            <li><span class="font-bold">Fully Booked</span> – Carries Haikyuu!! volumes in select branches and online store.</li>
+            <li><span class="font-bold">Shopee Philippines</span> – Multiple sellers offer new and bundled Haikyuu!! volumes.</li>
+            <li><span class="font-bold">Lazada Philippines</span> – Nationwide shipping for manga sets and individual volumes.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div>
-      <h1 class="font-bold text-2xl">Anime</h1>
-      <ul>
-        <li>Title: Haikyu!!</li>
-        <li>Anime Adaptation Start Date: April 6, 2014</li>
-        <li>Animation Studio: Production I.G</li>
 
-        <li>Number of Seasons: 4 main seasons</li>
-        <li>
-          Latest Anime Arc: Haikyu!! The Dumpster Battle (2024)
-        </li>
+<div class="max-w-4xl mx-auto px-4 mt-12">
+  <div class="flex flex-col md:flex-row items-start gap-8">
+  
+    <div class="w-[260px] shrink-0">
+      <img
+        src="https://m.media-amazon.com/images/I/71uT+Js3kCS._AC_SL1024_.jpg"
+        alt="Haikyuu!! Anime Poster"
+        class="w-full h-auto rounded shadow-md"
+      />
+    </div>
+
+    <div class="flex-1">
+      <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Anime</h2>
+      <ul class="list-disc pl-5 text-gray-800 font-garamond text-base leading-relaxed space-y-1 mb-6">
+        <li><strong>Title:</strong> Haikyu!!</li>
+        <li><strong>Anime Adaptation Start Date:</strong> April 6, 2014</li>
+        <li><strong>Animation Studio:</strong> Production I.G</li>
+        <li><strong>Number of Seasons:</strong> 4 main seasons</li>
+        <li><strong>Latest Anime Arc:</strong> Haikyu!! The Dumpster Battle (2024)</li>
+      </ul>
+
+      <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to watch online?</h2>
+      <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2 mb-6">
+        <li><span class="font-bold">Netflix</span> – Available in select regions including the Philippines.</li>
+        <li><span class="font-bold">Crunchyroll</span> – Full seasons with subtitles and simulcasts.</li>
+        <li><span class="font-bold">Bilibili</span> – Free streaming with community subs.</li>
+        <li><span class="font-bold">iQIYI</span> – Licensed anime streaming platform in Southeast Asia.</li>
       </ul>
     </div>
   </div>
-  <br />
 </div>
+    <hr class="my-10 border-gray-300" />
 
-    <hr />
-
-    <br />
-     <div class="mx-auto max-w-4xl px-4">
-  <h2 class="font-bold text-center">All About The Author:</h2>
-  <p style="text-align: justify">
-    Haruichi Furudate is a Japanese manga artist best known for creating
-    Haikyū!!. Born in Iwate Prefecture, Furudate began their career with
-    one-shots and short stories before debuting Haikyū!! in Weekly Shōnen Jump
-    in 2012. The series quickly gained popularity for its dynamic sports
-    action, emotional storytelling, and detailed character development.
-    Furudate is known for being private, with little public information about
-    their personal life, but their passion for volleyball and storytelling
-    shines through in their work.
-  </p>
-</div>
-    <br>
-
-    <footer class="bg-[#262B49] py-8 px-4 text-center text-white">
-  <div class="flex flex-wrap justify-center gap-8">
-
-    <!-- HOME PAGE -->
-    <div class="flex flex-col items-center">
-      <img src="button 1.png" alt="hinata shoyo" class="h-32 w-auto mb-2" />
-      <a href="index.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        HOME PAGE
-      </a>
+    <div class="max-w-4xl mx-auto px-4 mt-10">
+      <h2 class="font-bold text-center text-xl mb-4">All About The Author:</h2>
+      <p class="font-garamond text-justify text-xl">
+        Haruichi Furudate is a Japanese manga artist best known for creating Haikyū!!. Born in Iwate
+        Prefecture, Furudate began their career with one-shots and short stories before debuting
+        Haikyū!! in Weekly Shōnen Jump in 2012. The series quickly gained popularity for its dynamic
+        sports action, emotional storytelling, and detailed character development. Furudate is known
+        for being private, with little public information about their personal life, but their
+        passion for volleyball and storytelling shines through in their work.
+      </p>
     </div>
 
-    <div class="flex flex-col items-center">
-      <img src="button 7.png" alt="kageyama tobio" class="h-32 w-auto mb-2" />
-      <a href="second.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        KARASUNO MEMBERS
-      </a>
-    </div>
+    <footer class="bg-[#262B49] py-8 px-4 text-center text-white mt-16">
+      <div class="flex flex-wrap justify-center gap-8 font-yusei">
+        <div class="flex flex-col items-center">
+          <a href="index.html">
+            <img src="button 1.png" alt="hinata shoyo" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="index.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            HOME PAGE
+          </a>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="second.html">
+            <img src="button 7.png" alt="kageyama tobio" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="second.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            KARASUNO MEMBERS
+          </a>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="fifth.html">
+            <img src="aoba johsai.png" alt="aoba johsai" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="fifth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            AOBA JOHSAI MEMBERS
+          </a>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="sixth.html">
+            <img src="inarizaki.png" alt="inarizaki" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="sixth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            INARIZAKI MEMBERS
+          </a>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="third.html">
+            <img src="button 2.png" alt="kenma kozume" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="third.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            NEKOMA MEMBERS
+          </a>
+        </div>
+        <div class="flex flex-col items-center">
+          <a href="fourth.html">
+            <img src="button 6.png" alt="kuroo tetsuro" class="h-32 w-auto mb-2" />
+          </a>
+          <a href="fourth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+            ANIME WATCH GUIDE
+          </a>
+        </div>
+      </div>
 
-    <div class="flex flex-col items-center">
-      <img src="aoba johsai.png" alt="aoba johsai" class="h-32 w-auto mb-2" />
-      <a href="fifth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        AOBA JOHSAI MEMBERS 
-      </a>
-    </div>
+      <hr class="my-8 border-gray-700" />
 
-    <div class="flex flex-col items-center">
-      <img src="inarizaki.png" alt="inarizaki" class="h-32 w-auto mb-2" />
-      <a href="sixth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        INARIZAKI MEMBERS 
-      </a>
-    </div>
+      <div class="max-w-xl mx-auto flex flex-col items-center space-y-6 text-center font-yusei">
+        <div>
+          <h2 class="text-lg font-semibold">Feedback and Ideas</h2>
+          <p class="text-sm text-gray-400">We appreciate you taking time to share your thoughts.</p>
+        </div>
 
-    <div class="flex flex-col items-center">
-      <img src="button 2.png" alt="kenma kozume" class="h-32 w-auto mb-2" />
-      <a href="third.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        NEKOMA MEMBERS
-      </a>
-    </div>
-
-    <div class="flex flex-col items-center">
-      <img src="button 6.png" alt="kuroo tetsuro" class="h-32 w-auto mb-2" />
-      <a href="fourth.html" class="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
-        ANIME WATCH GUIDE
-      </a>
-    </div>
-  </div>
-</footer>
+        <form class="w-full space-y-4 font-garamond">
+          <input type="text" placeholder="Name" class="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-700" />
+          <input type="email" placeholder="Gmail" class="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-700" />
+          <textarea rows="3" placeholder="Your suggestion..." class="w-full px-3 py-2 rounded bg-gray-800 text-white border border-gray-700"></textarea>
+          <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-medium">Submit</button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
