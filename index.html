@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haikyu!!</title>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Yusei+Magic&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              garamond: ['"EB Garamond"', 'serif'],
-              yusei: ['"Yusei Magic"', 'sans-serif'],
-            },
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haikyu!!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Slabo+27px&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            montserrat: ['"Montserrat"', 'sans-serif'],
+            slabo: ['"Slabo 27px"', 'serif'],
           },
         },
-      }
-    </script>
-  </head>
+      },
+    }
+  </script>
+  <style>
+    .font-slabo {
+      font-family: 'Slabo 27px', serif;
+    }
+  </style>
+</head>
 
   <body class="bg-white text-gray-900">
     <header class="bg-orange-400 py-4">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/4/43/Haikyuu%21%21_Logo.png"
-        alt="Haikyuu Logo"
+        alt="Haikyu!! Logo"
         class="mx-auto"
       />
     </header>
@@ -33,11 +36,11 @@
       <div class="block w-full">
         <img
           src="https://pbs.twimg.com/media/FC4mTlaVQAgo-8X.jpg:large"
-          alt="Haikyuu!! Team"
+          alt="pic"
           class="float-left w-[21rem] mr-8 mb-4"
         />
 
-        <p class="font-garamond text-base md:text-xl text-gray-800 leading-relaxed text-justify mb-6">
+        <p class="font-montserrat text-base text-gray-800 leading-relaxed text-justify mb-6" style="font-size: 17px;">
           Haikyu!! follows Shōyō Hinata, a high school student who dreams of
           becoming a great volleyball player despite his short stature. Inspired by a legendary
           player known as "The Little Giant," he joins Karasuno High School’s volleyball team and
@@ -45,15 +48,15 @@
           Together, they push each other to grow, transforming Karasuno from an underdog team into a formidable force on the court.
         </p>
 
-        <p class="font-garamond text-base md:text-xl text-gray-800 leading-relaxed text-justify mb-6">
+        <p class="font-montserrat text-base text-gray-800 leading-relaxed text-justify mb-6" style="font-size: 17px;">
           The series explores the intense world of competitive high school volleyball, where every match is a test of strategy,
           endurance, and teamwork. As Hinata and Kageyama evolve as players, so does the entire Karasuno squad. Each teammate
-          brings a unique personality and skillset, contributing to the team's growth both on and off the court. Haikyuu!! 
+          brings a unique personality and skillset, contributing to the team's growth both on and off the court. Haikyu!! 
           introduces a wide range of rival schools such as Aoba Johsai, Nekoma, Shiratorizawa, and Inarizaki, each with their
           own philosophies and playstyles that challenge Karasuno in different ways. Through rigorous training, emotional
           setbacks, and unforgettable tournaments, the story highlights the value of perseverance, friendship, and the pursuit
           of excellence. Whether you're drawn to the fast-paced action, the heartfelt character development, or the inspiring
-          message of rising above limitations, Haikyuu!! delivers a powerful and uplifting experience that resonates far beyond the volleyball court.
+          message of rising above limitations, Haikyu!! delivers a powerful and uplifting experience that resonates far beyond the volleyball court.
         </p>
 
         <div class="clear-both"></div>
@@ -69,9 +72,10 @@
           />
         </div>
 
+        <br> 
         <div class="flex-1">
-          <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Manga</h2>
-          <ul class="list-disc pl-5 text-gray-800 font-garamond text-base leading-relaxed space-y-1 mb-6">
+          <h2 class="text-xl font-bold mb-4 text-orange-600">Manga</h2>
+          <ul class="list-disc pl-5 text-gray-800 font-montserrat text-base leading-relaxed space-y-1 mb-6">
             <li><strong>Title:</strong> Haikyu!!</li>
             <li><strong>First Published:</strong> February 20, 2012</li>
             <li><strong>Published In:</strong> Weekly Shōnen Jump (published by Shueisha)</li>
@@ -79,15 +83,15 @@
           </ul>
 
           <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to Read Manga Online?</h2>
-          <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2 mb-6">
+          <ul class="list-decimal pl-5 text-gray-700 font-montserrat text-base leading-relaxed space-y-2 mb-6">
             <li><span class="font-bold">Manga Plus</span> – Free access to selected chapters from Shueisha.</li>
             <li><span class="font-bold">Viz</span> – Offers digital volumes and chapter previews.</li>
           </ul>
 
           <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to Buy Physical Copies?</h2>
-          <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2">
-            <li><span class="font-bold">Kinokuniya</span> – International bookstore with manga sections (available via Manila branches or online).</li>
-            <li><span class="font-bold">Fully Booked</span> – Carries Haikyuu!! volumes in select branches and online store.</li>
+          <ul class="list-decimal pl-5 text-gray-700 font-montserrat text-base leading-relaxed space-y-2">
+            <li><span class="font-bold">Kinokuniya</span> – International bookstore with manga sections.</li>
+            <li><span class="font-bold">Fully Booked</span> – Carries Haikyu!! volumes in select branches and online store.</li>
             <li><span class="font-bold">Shopee Philippines</span> – Multiple sellers offer new and bundled Haikyuu!! volumes.</li>
             <li><span class="font-bold">Lazada Philippines</span> – Nationwide shipping for manga sets and individual volumes.</li>
           </ul>
@@ -106,19 +110,21 @@
       />
     </div>
 
-    
+    <br> 
     <div class="flex-1">
       <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Anime</h2>
-      <ul class="list-disc pl-5 text-gray-800 font-garamond text-base leading-relaxed space-y-1 mb-6">
+      <ul class="list-disc pl-5 text-gray-800 font-montserrat text-base leading-relaxed space-y-1 mb-6">
         <li><strong>Title:</strong> Haikyu!!</li>
         <li><strong>Anime Adaptation Start Date:</strong> April 6, 2014</li>
         <li><strong>Animation Studio:</strong> Production I.G</li>
         <li><strong>Number of Seasons:</strong> 4 main seasons</li>
         <li><strong>Latest Anime Arc:</strong> Haikyu!! The Dumpster Battle (2024)</li>
-      </ul>
+      </ul> 
+
+      <br> 
 
       <h2 class="text-xl font-bold mb-4 font-sans text-orange-600">Where to Watch Online?</h2>
-      <ul class="list-decimal pl-5 text-gray-700 font-garamond text-base leading-relaxed space-y-2 mb-6">
+      <ul class="list-decimal pl-5 text-gray-700 font-montserrat text-base leading-relaxed space-y-2 mb-6">
         <li><span class="font-bold">Netflix</span> – Available in select regions including the Philippines.</li>
         <li><span class="font-bold">Crunchyroll</span> – Full seasons with subtitles and simulcasts.</li>
         <li><span class="font-bold">Bilibili</span> – Free streaming with community subs.</li>
@@ -131,7 +137,7 @@
 
     <div class="max-w-4xl mx-auto px-4 mt-10">
       <h2 class="font-bold text-center text-xl mb-4">All About The Author:</h2>
-      <p class="font-garamond text-justify text-xl">
+      <p class="font-montserrat text-justify" style="font-size: 17px; ">
         Haruichi Furudate is a Japanese manga artist best known for creating Haikyū!!. Born in Iwate
         Prefecture, Furudate began their career with one-shots and short stories before debuting
         Haikyū!! in Weekly Shōnen Jump in 2012. The series quickly gained popularity for its dynamic
